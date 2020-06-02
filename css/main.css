@@ -448,12 +448,11 @@ p {
 	height: 230px;
 	width: 360px;
 	margin-left: 30px;
-	background: #ff5c36;
-	box-shadow: 0px 5px 20px #c7c7c7;
 	margin-bottom: 280px;
 }
 
 .team-png {
+	box-shadow: 0px 5px 20px #c7c7c7;
 	width: 360px;
 	height: 360px;
 }
@@ -847,6 +846,482 @@ body {
     margin-right: 10px;
 }
 
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+    	width: 960px;
+
+    }
+
+    .row {
+    	position: relative;
+    }
+
+    .menu-section {
+    	margin-right: 0px;
+    	position: relative;
+    	left: 22px;
+    }
+
+    .menu-block {
+    	left: -25px;
+    }
+
+    .menu-btn {
+    	
+    }
+    .kockoi-block {
+    	margin-left: 95px;
+    	text-align: center;
+    	width: 760px;
+    	justify-content: space-between;
+    	box-sizing: border-box;
+    	display: inline-block;
+    }
+    .kockoi {
+    	display: inline-block;
+    	margin-left: 50px;
+    	margin-bottom: 50px;
+    }
+
+    .settings {
+    	margin-left: 50px;
+    	display: inline-block;
+    	margin-left: 50px;
+    }
+
+    .photos {
+    	text-align: center;
+    	width: 960px;
+    }
+
+    .modern-text {
+    	/*text-align: left;*/
+    }
+
+    .modern-app {
+    	margin: 0 auto;
+    	padding-left: 70px;
+    	text-align: center;
+    }
+
+    .modern-block {
+    	margin: 0 auto;
+    	padding: 0;
+    	display: block;
+    	width: 500px;
+    }
+
+    .services {
+    	width: 960px;
+    	display: block;
+    }
+
+    .services-block {
+    	text-align: center;
+    	width: 960px;
+    	display: ;
+    	/*margin: 0 auto;*/
+    	padding: 0;
+    	justify-content: space-between;
+    }
+    .icons-block: {
+    	margin: 0 auto;
+    }
+
+    .apple-watch {
+    	width: 260px;
+    }
+
+    .team-photos {
+    	text-align: center;
+    	width: 960px;
+    	display: block;
+    }
+    .team-photo {
+    	display: block;
+    	margin-left: 290px;
+    	/*margin: 0 auto;*/
+    	/*justify-content: space-between;*/
+    }
+
+    .patherns {
+    	width: 960px;
+    }
+    .row-container {
+    	left: -10px;
+    	position: relative;
+    	width: 960px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+    	width: 720px;
+    }
+
+    .menu-block {
+    	left: 0px;
+    }
+
+    .menu-btn {
+
+    }
+
+    .services {
+    	width: 720px;
+    }
+
+    .kockoi-block {
+    	width: 520px;
+    }
+
+    .services-block {
+    	width: 720px;
+    	display: block;
+    }
+
+    .photos {
+    	width: 420px;
+    }
+
+    .icons-block {
+    	padding: 0px;
+    	width: 720px;
+    	height: 50px;
+    	display: inline;
+    }
+    .icons {
+    	margin-left: 0px;
+    	width: 100px;
+    	display: inline;
+    }
+
+    .services-titel {
+    	margin: 0 auto;
+    }
+
+    .serices-text {
+    	margin-bottom: 50px;
+    }
+
+    .modern-block {
+    	width: 720px;
+    }
+
+    .modern-app {
+    	padding: 0;
+    	margin-top: 40px;
+    }
+
+    .modern-btn {
+    	margin: 0 auto;
+    	display: block;
+    }
+
+    .modern-text {
+    	padding: 0;
+    	margin: 0 auto;
+    	text-align: center;
+    	margin-bottom: 20px;
+    }
+
+    .apple-watch {
+    	padding-top: 40px;
+    	margin: 0 auto;
+    }
+
+    .team-photos {
+    	width: 720px;
+    	padding-top: ;
+    	margin: 0 auto;
+    	justify-content: space-between;
+
+    }
+
+    .team-photo {
+    	margin: 0 auto;
+    	position: relative;
+    	display: column;
+    	width: 240px;
+    }
+
+    .team {
+    	height: 1170px;
+    	justify-content: space-between;
+    }
+
+    .team-png {
+    	width: 260px;
+    	height: 260px;
+    	margin-bottom: ;
+    }
+
+    .team-position {
+    	z-index:99999999;
+    	display: block;
+    	text-align: center;
+    	position: relative;
+    	left: -30px;
+    	width: 320px;
+    }
+
+
+    .second-photo {
+    	margin-top: 100px;
+    	position: relative;
+    	/*top: 50px;*/
+    } 
+
+    .third-photo {
+    	margin-top: 190px;
+    }
+
+    .contacts {
+    	display: block;
+    }
+
+    .patherns {
+    	justify-content: space-between;
+    	display: block;
+    	width: 720px;
+    	padding-bottom: 0;
+    }
+
+    .pathern-img {
+    	padding-bottom: 35px;
+    	padding-left: 70px;
+    }
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+    	width: 540px;
+    }
+
+    .intro {
+    	width: 520px;
+    	margin-bottom: 40px;
+    }
+
+    .send-message {
+    	margin: 0 auto;
+    }
+
+    .working-text {
+    	margin: 0 auto;
+    	width: 520px;
+    	padding-bottom: 30px;
+    }
+
+    .kockoi-block {
+    	height: 1150px;
+    	margin: 0 auto;
+    }
+
+    .services {
+    	width: 540px;
+    	margin: 0 auto;
+    }
+
+    .services-text {
+    	width: 450px;
+    }
+
+    .services-block {
+    	width: 540px;
+    }
+
+    .icons-block {
+    	width: 540px;
+    }
+
+    .modern-block {
+    	margin-left: 0px;
+    	width: 500px;
+    }
+
+    .modern-text {
+    	margin:;
+    	width: 520px;
+    }
+
+    .team-photos {
+    	margin-top: 30px;
+    	width: 520px;
+    }
+
+    .team {
+    	height: 1180px;
+    }
+
+    .patherns {
+    	margin: 0 auto;
+    	width: 540px;
+    }
+
+    .year {
+    	margin-top: 12px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+    	width: 90%;
+    }
+
+    .smart {
+    	margin-right: 0;
+    }
+
+    .menu-section {
+    	float: right;
+    }
+
+    .menu-block {
+    	left: ;
+    	margin-left: ;
+    }
+
+    .intro {
+    	width: 90%
+    }
+
+    .send-message {
+    	width: 240px;
+    }
+
+    .login {
+    	font-size: 20px;
+    }
+
+    .form {
+    	font-size: 15px;
+    }
+
+    .input {
+    	width: 180px;
+    }
+
+    .btn-login {
+    	font-size: 16px;
+    	width: 190px;
+    	height: 41px;
+    	padding-bottom: 40px;
+    }
+
+    .working-text {
+    	width: 90%;
+    }
+
+    .kockoi-block {
+    	width: 90%;
+    }
+
+    .photos {
+    	width: 90%;
+    }
+
+    .photo {
+    	width: 90%;
+    }
+
+    .img {
+    	width: 90%;
+    	
+    }
+
+    .services-title {
+    	/*width: 90%;*/
+    }
+
+    .services {
+    	width: 90%;
+    }
+
+    .services-block {
+    	margin: 0 auto;
+    	width: 90%;
+    }
+
+    .modern-block {
+    	width: 90%;
+    }
+
+    .modern-app {
+    	width: 90%;
+    }
+
+    .modern-text {
+    	margin-top: 30px;
+    	width: 90%;
+    }
+
+    .team-photos {
+    	width: 90%;
+    }
+
+    .team-position {
+    	position: relative;
+    	left: 35px;
+    	width: 80%;
+    }
+
+    .team-name {
+    	font-size: 22px;
+    }
+
+    .patherns {
+    	padding-left: 50px;
+    	margin: 0 auto;
+    	/*align-items: center;*/
+    	width: 100%;
+    }
+
+    .pathern-img {
+    	float: inherit;
+    	padding-left: 20px;
+    	padding-bottom: ;
+    }
+
+    .links {
+    	display: inline;
+    	align-items: center;
+    	text-align: center;
+    	justify-content: space-around;
+    	height: 50px;
+    	width: 90%
+    	height: 100%;
+    	flex-direction: 
+    	margin: 0 auto;
+    }
+
+    .facebook {
+    	position: relative;
+    	margin: 0 auto;
+    	width: 50px;
+    }
+
+    .twitter {
+    	margin-top: 10px;
+    }
+
+    .ball {
+    	margin-top: 10px;
+    }
+
+    .be {
+    	margin-top: 10px;
+    }
+
+    .year {
+    	margin-top: 40px;
+    }
+}
 
 
 /**
@@ -885,63 +1360,3 @@ body {
     }
 }
 
-/* 992px - 1200px */
-@media screen and (max-width: 1200px) {
-    .container {
-    	width: 960px;
-    }
-}
-
-/* 768px - 992px */
-@media screen and (max-width: 992px) {
-    .container {
-    	width: 720px;
-    }
-    .wrapper {
-    	flex-direction: column;
-    }
-    .offer {
-    	width: 100%;
-    }
-    .intro {
-    	width: auto;
-    }
-    .desktop {
-    	display: block;
-    	width: 549px;
-    	margin: 72px auto 0;
-    }
-    .skills {
-    	flex-direction: column;
-    }
-
-    .skill {
-    	width: auto;
-    	margin-bottom: 30px;
-    }
-}
-
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
-    .container {
-    	width: 540px;
-    }
-    .desktop {
-    	width: 100%;
-    }
-    .input {
-    	width: 100%
-    }
-    .btn {
-    	margin-left: 0;
-    	margin-top: 15px;
-    	width: 100%;
-    }
-}
-
-/* 320px - 576px */
-@media screen and (max-width: 576px) {
-    .container {
-    	width: 90%;
-    }
-}
