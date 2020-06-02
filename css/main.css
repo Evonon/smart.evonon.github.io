@@ -28,7 +28,7 @@ p {
 }
 
 .header {
-	background: url('../img/desktop.png') no-repeat;
+	background: url('../img/desktop.png') center no-repeat;
 }
 
 .desktop {
