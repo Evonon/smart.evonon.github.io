@@ -282,6 +282,8 @@ p {
 
 .photos {
 	width: 1180px;
+	position: relative;
+	left: -33px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -443,6 +445,8 @@ p {
 }
 
 .team-photos {
+	position: relative;
+	left: -30px;
 	display: flex;
 	margin-top: 100px;
 }
@@ -1102,6 +1106,7 @@ body {
 
 }
 
+
 /* 576px - 768px */
 @media screen and (max-width: 768px) {
     .container {
@@ -1151,6 +1156,10 @@ body {
     	width: 540px;
     }
 
+    .photos {
+    	left: -12px;
+    }
+
     .icons-block {
     	width: 540px;
     }
@@ -1166,12 +1175,17 @@ body {
     }
 
     .team-photos {
+    	left: -18px;
     	margin-top: 30px;
     	width: 520px;
     }
 
     .team {
-    	height: 1180px;
+    	height: 1250px;
+    }
+
+    .team-p {
+    	mb50
     }
 
     .patherns {
@@ -1249,10 +1263,12 @@ body {
     }
 
     .photos {
+    	left: -6px;
     	width: 90%;
     }
 
     .photo {
+    	/*left: 20px;*/
     	width: 90%;
     }
 
@@ -1287,11 +1303,21 @@ body {
     	width: 90%;
     }
 
+    .modern-btn {
+    	width: 100%;
+    }
+
+    .apple-watch {
+    	position: relative;
+    	left: -20px;
+    }
+
     .team {
     	height: 1240px;
     }
 
     .team-photos {
+    	left: -10px;
     	width: 90%;
     }
 
@@ -1346,6 +1372,10 @@ body {
 
     .be {
     	margin-top: 10px;
+    }
+
+    .contact-btn {
+    	width: 80%;
     }
 
     .year {
