@@ -1310,6 +1310,7 @@ body {
     .apple-watch {
     	position: relative;
     	left: -20px;
+	margin-bottom: 30px;
     }
 
     .team {
