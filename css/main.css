@@ -30,7 +30,9 @@ p {
 
 
 .header {
-	background: #DDDDDD;
+	background-size: 100%;
+	background: url('../img/apple-desktop.jpg') center no-repeat;
+	/*background: #DDDDDD;*/
 }
 
 .desktop {
@@ -44,7 +46,7 @@ p {
 	font-family: 'OpenSans', sans-serif;
 	font-weight: 400;
 	font-size: 38px;
-	border: 3px solid #706b73;
+	border: 3px solid #7f7a82;
 	width: 149px;
 	text-align: center;
 	border-radius: 3px;
@@ -94,7 +96,6 @@ p {
 	margin: 0 auto;
 	display: block;
 	text-align: center;
-	color: #565454;
 }
 
 .send-message {
@@ -186,6 +187,7 @@ p {
 .kockoi-block {
 	width: 1180px;
 	margin: 0 auto;
+	padding-bottom: 80px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -295,7 +297,7 @@ p {
 }
 
 .services {
-	padding-top: 50px;
+	padding-top: 80px;
 }
 
 .services-block {
@@ -422,7 +424,7 @@ p {
 }
 
 .team {
-	padding-top: 40px;
+	padding-top: 80px;
 	background: #DDDDDD;
 }
 
@@ -447,6 +449,8 @@ p {
 
 
 .team-photo {
+	position: relative;
+	top: -8px;
 	height: 230px;
 	width: 360px;
 	margin-left: 30px;
@@ -681,6 +685,7 @@ p {
 
 
 .year {
+	margin-top: 15px;
 	margin-left: 22px;
 }
 
